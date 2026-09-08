@@ -1,24 +1,14 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Cuisine Momo
+description: Cuisne Momo est un projet de découverte de cuisine pour le cégep Montmorency. Ce projet a été fait uniquement avec du HTML et du CSS.
+img: assets/img/cuisinemomo.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+[Voir le code sur GitHub](https://github.com/ShaniceDau/Cuisine-Momo.git)
     ---
 
 <div class="row">
