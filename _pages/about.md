@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: À propos
 permalink: /
-subtitle: Bienevenue dans mon portfolio.
+subtitle: Bienvenue dans mon portfolio.
 
 profile:
   align: right
