@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Mémoire beauté
-description: with background image
+description: Memoire beauté est un site de jeu de mémoire. Il avait pour but de mettre de l'avant l'enregistrement de données dans le session storage et le local storage. 
 img: assets/img/memoirebeaute.png
 importance: 1
 category: work
 related_publications: true
 ---
-
 Lien: 
 [Voir le code sur GitHub](https://github.com/ShaniceDau/memoirebeaute.git)
 

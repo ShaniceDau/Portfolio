@@ -1,25 +1,17 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Montréal Mic'd up
+description: Mon site Web illustre plusieurs artistes de Montréal. Le but de celui-ci est de pouvoir mettre de l’avant les artistes de Montréal de l’avant, car il y a beaucoup de talent dans la ville dans le domaine de la musique. Je trouve que ces ceux-ci méritent d’être connu et écouté. Je vais partager des descriptions de ces artistes et quelques morceaux de leur discographie. Dans ce projet j'ai utilisé mes compétences dans le stack MERN (MongoDB, Express, React et Node.js).
+img: assets/img/montrealmicdup.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
+Lien: 
+[Voir le code sur GitHub](https://github.com/ShaniceDau/Montreal-Micdup.git)
+[Voir le site Web](https://foura5-projet-final-h26-shanicedaudier.onrender.com/)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
