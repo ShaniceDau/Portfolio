@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 Lien: 
-[Voir le code sur GitHub](https://github.com/ShaniceDau/Montreal-Micdup.git)
+[Voir le code sur GitHub](https://github.com/ShaniceDau/Montreal-Micdup.git) - 
 [Voir le site Web](https://foura5-projet-final-h26-shanicedaudier.onrender.com/)
 
 ---
