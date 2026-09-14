@@ -14,8 +14,12 @@ profile:
 
 Mon nom est Shanice Daudier une passionnée du developpement' d'application. Ce site web contient un amas de projet que j'ai réalisé durant mon parcours dans ce domaine.
 
+<div style="margin-top: 5rem; padding-top: 2.5rem; border-top: 1px solid var(--global-divider-color, #e0e0e0);">
+
 Projets
+
 <!-- Grille de projets, identique à _pages/projects.md --> 
+
 <div class="projects"> 
 {% if site.enable_project_categories and page.display_categories %} 
   <!-- Display categorized projects --> 
@@ -33,9 +37,8 @@ Projets
     {% for project in sorted_projects %} 
       {% include projects_horizontal.liquid %} 
     {% endfor %} 
-    </div> 
-  </div> 
-  {% else %} 
+    </div>
+  </div> {% else %} 
   <div class="row row-cols-1 row-cols-md-3"> 
     {% for project in sorted_projects %} 
       {% include projects.liquid %} 
@@ -59,14 +62,15 @@ Projets
     {% for project in sorted_projects %} 
       {% include projects_horizontal.liquid %} 
     {% endfor %} 
-    </div>
+    </div> 
   </div> 
-  {% else %} 
-  <div class="row row-cols-1 row-cols-md-3"> 
-    {% for project in sorted_projects %} 
-      {% include projects.liquid %} 
-    {% endfor %} 
-  </div> 
-  {% endif %} 
-{% endif %} 
+    {% else %} 
+    <div class="row row-cols-1 row-cols-md-3"> 
+      {% for project in sorted_projects %} 
+        {% include projects.liquid %} 
+      {% endfor %} 
+      </div> 
+      {% endif %}
+    {% endif %} 
+    </div> 
 </div>
