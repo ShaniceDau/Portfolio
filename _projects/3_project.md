@@ -2,7 +2,7 @@
 layout: page
 title: Jeu Boggle
 description: Le but de ce projet était de développer une application graphique client/serveur. À partir d’un projet vide, il fallait construire une application étape par étape. L’application contien trois pages, dont une où il y a un jeu 2d implanté.
-img: assets/img/7.jpg
+img: assets/img/jeuboggle.jpg
 redirect: 
 importance: 3
 category: work
