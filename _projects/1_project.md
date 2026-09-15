@@ -5,7 +5,9 @@ description: Cuisne Momo est un projet de découverte de cuisine pour le cégep 
 img: assets/img/cuisinemomo.png
 importance: 1
 category: work
-Lightbox2: true
+images:
+    lightbox2: true
+
 ---
 Lien: 
 
