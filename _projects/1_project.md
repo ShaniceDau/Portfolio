@@ -15,14 +15,20 @@ Cuisine MOMO est un site multi-pages fait entièrement en HTML et CSS (sans fram
 Page d'accueil
 
 <div class="row justify-content-sm-center"> 
-    <div class="col-sm-12 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo.png" title="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-12 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomo.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page d'accueil de Cuisine MOMO">
+        <img src="{{ 'assets/img/cuisinemomo.png' | relative_url }}" alt="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1">
+        </a> 
     </div> 
 </div> 
 <div class="caption"> 
     La page d'accueil (<code>index.html</code>) avec une section "hero" : un texte de bienvenue à gauche et une image de cuisine à droite. La mise en page est gérée avec Flexbox dans <code>accueil.css</code>, par-dessus les variables de couleurs définies dans <code>variables.css</code>. 
 </div> 
 <div class="row justify-content-sm-center"> 
-    <div class="col-sm-12 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomoaccueil2.png" title="Cartes de navigation sur la page d'accueil" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-12 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Cartes de navigation sur la page d'accueil">
+        <img src="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" alt="Cartes de navigation sur la page d'accueil" class="img-fluid rounded z-depth-1">
+        </a> 
     </div> 
 </div> 
 <div class="caption"> 
@@ -32,14 +38,21 @@ Page d'accueil
 Les autres pages du site
 
 <div class="row"> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomorecettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomo-recettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes">
+        <img src="{{ 'assets/img/cuisinemomo-recettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
+        </a> 
     </div> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomotechniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomo-techniques.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des techniques de cuisine"><img src="{{ 'assets/img/cuisinemomo-techniques.png' | relative_url }}" alt="Page des techniques de cuisine" class="img-fluid rounded z-depth-1">
+        </a> 
     </div> 
 </div> 
 <div class="row justify-content-sm-center"> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomosaisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
-    </div>
+    <div class="col-sm-6 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomo-saisonnier.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des produits de saison"><img src="{{ 'assets/img/cuisinemomo-saisonnier.png' | relative_url }}" alt="Page des produits de saison" class="img-fluid rounded z-depth-1">
+        </a> 
+    </div> 
 </div> 
 <div class="caption"> 
     Dans l'ordre du menu : <b>Recettes</b> (<code>recettes.html</code>) liste les recettes sous forme de cartes avec portions, temps et difficulté ; <b>Techniques</b> (<code>techniques.html</code>) présente les bases en 3 colonnes (Coupes, Cuissons, Mesures & conversions) ; <b>Saisonnier</b> (<code>saisonnier.html</code>) affiche un tableau des produits disponibles par mois. Chaque page a son propre fichier CSS (<code>recettes.css</code>, <code>techniques.css</code>, <code>saisonnier.css</code>). 
@@ -48,7 +61,9 @@ Les autres pages du site
 Pied de page
 
 <div class="row justify-content-sm-center"> 
-    <div class="col-sm-8 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomocontacts.png" title="Pied de page du site" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-8 mt-3 mt-md-0"> 
+        <a href="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Pied de page du site"><img src="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" alt="Pied de page du site" class="img-fluid rounded z-depth-1">
+        </a>
     </div> 
 </div> 
 <div class="caption"> 
