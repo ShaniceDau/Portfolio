@@ -48,18 +48,15 @@ Page d'accueil
 
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomo.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page d'accueil de Cuisine MOMO">
-        <img src="{{ 'assets/img/cuisinemomo.png' | relative_url }}" alt="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomo.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page d'accueil de Cuisine MOMO"><img src="{{ 'assets/img/cuisinemomo.png' | relative_url }}" alt="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
-<div class="caption"> 
-    La page d'accueil (<code>index.html</code>) avec une section "hero" : un texte de bienvenue à gauche et une image de cuisine à droite. La mise en page est gérée avec Flexbox dans <code>accueil.css</code>, par-dessus les variables de couleurs définies dans <code>variables.css</code>. 
+<div class="caption"> La page d'accueil (<code>index.html</code>) avec une section "hero" : un texte de bienvenue à gauche et une image de cuisine à droite. La mise en page est gérée avec Flexbox dans <code>accueil.css</code>, par-dessus les variables de couleurs définies dans <code>variables.css</code>. 
 </div> 
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Cartes de navigation sur la page d'accueil">
-        <img src="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" alt="Cartes de navigation sur la page d'accueil" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Cartes de navigation sur la page d'accueil"> <img src="{{ 'assets/img/cuisinemomoaccueil2.png' | relative_url }}" alt="Cartes de navigation sur la page d'accueil" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
@@ -71,18 +68,17 @@ Les autres pages du site
 
 <div class="row"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes">
-        <img src="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes"> <img src="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des techniques de cuisine"><img src="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" alt="Page des techniques de cuisine" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des techniques de cuisine"> <img src="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" alt="Page des techniques de cuisine" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des produits de saison"><img src="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" alt="Page des produits de saison" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des produits de saison"> <img src="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" alt="Page des produits de saison" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
@@ -95,8 +91,8 @@ Pied de page
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-8 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Pied de page du site"><img src="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" alt="Pied de page du site" class="img-fluid rounded z-depth-1">
-        </a>
-    </div> 
+        </a> 
+    </div>
 </div> 
 <div class="caption"> 
     Le pied de page, présent sur toutes les pages, regroupe les coordonnées du cégep et des liens rapides vers les autres sections. Fait avec Flexbox dans <code>main.css</code>, le fichier de style commun à tout le site. 
