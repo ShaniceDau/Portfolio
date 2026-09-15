@@ -9,63 +9,47 @@ related_publications: true
 ---
 Lien: 
 [Voir le code sur GitHub](https://github.com/ShaniceDau/Cuisine-Momo.git)
+
+Cuisine MOMO est un site multi-pages fait entièrement en HTML et CSS (sans framework). Le style commun (couleurs, polices) est centralisé dans un fichier variables.css, et chaque page a ensuite son propre fichier CSS dédié (accueil, recettes, techniques, saisonnier).
     ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+Page d'accueil
+
+<div class="row justify-content-sm-center"> 
+    <div class="col-sm-12 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo.png" title="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+</div> 
+<div class="caption"> 
+    La page d'accueil (<code>index.html</code>) avec une section "hero" : un texte de bienvenue à gauche et une image de cuisine à droite. La mise en page est gérée avec Flexbox dans <code>accueil.css</code>, par-dessus les variables de couleurs définies dans <code>variables.css</code>. 
+</div> 
+<div class="row justify-content-sm-center"> 
+    <div class="col-sm-12 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomoaccueil2.png" title="Cartes de navigation sur la page d'accueil" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+</div> 
+<div class="caption"> 
+    Toujours sur la page d'accueil, une deuxième section présente 3 cartes cliquables (Recettes, Techniques, Saisonnier), chacune menant vers sa propre page HTML. Construites avec Flexbox pour rester alignées et responsives sur mobile. 
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Les autres pages du site
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="row"> 
+    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomorecettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomotechniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomosaisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+</div> 
+<div class="caption"> 
+    Dans l'ordre du menu : <b>Recettes</b> (<code>recettes.html</code>) liste les recettes sous forme de cartes avec portions, temps et difficulté ; <b>Techniques</b> (<code>techniques.html</code>) présente les bases en 3 colonnes (Coupes, Cuissons, Mesures & conversions) ; <b>Saisonnier</b> (<code>saisonnier.html</code>) affiche un tableau des produits disponibles par mois. Chaque page a son propre fichier CSS (<code>recettes.css</code>, <code>techniques.css</code>, <code>saisonnier.css</code>). 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Pied de page
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row justify-content-sm-center"> 
+    <div class="col-sm-8 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomocontacts.png" title="Pied de page du site" class="img-fluid rounded z-depth-1" %} 
+    </div> 
+</div> 
+<div class="caption"> 
+    Le pied de page, présent sur toutes les pages, regroupe les coordonnées du cégep et des liens rapides vers les autres sections. Fait avec Flexbox dans <code>main.css</code>, le fichier de style commun à tout le site. 
 </div>
-```
-
-{% endraw %}
