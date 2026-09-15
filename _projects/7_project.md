@@ -69,7 +69,7 @@ Règles du jeu
     </div> 
 </div> 
 <div class="caption"> 
-    La page <code>regles.html</code> explique le but du jeu et les objectifs avant que le joueur clique sur "Prêt" pour lancer la partie. 
+    La page <code>regles.html</code> explique le but du jeu et les objectifs avant que le joueur clique sur « Prêt » pour lancer la partie. 
 </div>
 
 Le jeu
