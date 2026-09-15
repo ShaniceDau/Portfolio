@@ -32,13 +32,13 @@ Page d'accueil
 Les autres pages du site
 
 <div class="row"> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-recettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomorecettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
     </div> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-techniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomotechniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
     </div> 
 </div> 
 <div class="row justify-content-sm-center"> 
-    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-saisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomosaisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
     </div>
 </div> 
 <div class="caption"> 
