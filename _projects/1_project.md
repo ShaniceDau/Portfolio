@@ -7,10 +7,42 @@ importance: 1
 category: work
 ---
 Lien: 
+
 [Voir le code sur GitHub](https://github.com/ShaniceDau/Cuisine-Momo.git)
 
 Cuisine MOMO est un site multi-pages fait entièrement en HTML et CSS (sans framework). Le style commun (couleurs, polices) est centralisé dans un fichier variables.css, et chaque page a ensuite son propre fichier CSS dédié (accueil, recettes, techniques, saisonnier).
     ---
+
+<style> 
+    .al-lightbox-overlay { 
+        background: rgba(0, 0, 0, 0.6) !important; 
+    }
+    .al-lightbox-figure { 
+        max-width: min(65vw, 800px) !important; 
+        max-height: 70vh !important; 
+    } 
+    .al-lightbox-image { 
+        max-height: calc(70vh - 3rem) !important; 
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); 
+        border-radius: 8px; 
+    }
+    .al-lightbox-close { 
+        top: 1rem !important; 
+        right: 1rem !important; 
+        left: auto !important; 
+        font-size: 1rem !important; 
+        font-family: inherit; 
+        background: rgba(0, 0, 0, 0.6) !important; 
+        padding: 0.4rem 0.9rem !important; 
+        border-radius: 6px !important; 
+        display: inline-flex; 
+        align-items: center; 
+        gap: 0.4rem; 
+    } 
+</style> 
+
+<script> window.addEventListener("load", function () { var closeBtn = document.querySelector(".al-lightbox-close"); if (closeBtn) { closeBtn.innerHTML = "&larr; Retour"; closeBtn.setAttribute("aria-label", "Retour à la page du projet"); } }); 
+</script>
 
 Page d'accueil
 
@@ -39,18 +71,18 @@ Les autres pages du site
 
 <div class="row"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomo-recettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes">
-        <img src="{{ 'assets/img/cuisinemomo-recettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes">
+        <img src="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomo-techniques.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des techniques de cuisine"><img src="{{ 'assets/img/cuisinemomo-techniques.png' | relative_url }}" alt="Page des techniques de cuisine" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des techniques de cuisine"><img src="{{ 'assets/img/cuisinemomotechniques.png' | relative_url }}" alt="Page des techniques de cuisine" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
-        <a href="{{ 'assets/img/cuisinemomo-saisonnier.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des produits de saison"><img src="{{ 'assets/img/cuisinemomo-saisonnier.png' | relative_url }}" alt="Page des produits de saison" class="img-fluid rounded z-depth-1">
+        <a href="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des produits de saison"><img src="{{ 'assets/img/cuisinemomosaisonnier.png' | relative_url }}" alt="Page des produits de saison" class="img-fluid rounded z-depth-1">
         </a> 
     </div> 
 </div> 
