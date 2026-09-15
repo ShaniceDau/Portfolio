@@ -5,7 +5,6 @@ description: Cuisne Momo est un projet de découverte de cuisine pour le cégep 
 img: assets/img/cuisinemomo.png
 importance: 1
 category: work
-related_publications: true
 ---
 Lien: 
 [Voir le code sur GitHub](https://github.com/ShaniceDau/Cuisine-Momo.git)
@@ -33,12 +32,14 @@ Page d'accueil
 Les autres pages du site
 
 <div class="row"> 
-    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomorecettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-recettes.png" title="Page des recettes" class="img-fluid rounded z-depth-1" %} 
     </div> 
-    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomotechniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-techniques.png" title="Page des techniques de cuisine" class="img-fluid rounded z-depth-1" %} 
     </div> 
-    <div class="col-sm mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomosaisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
-    </div> 
+</div> 
+<div class="row justify-content-sm-center"> 
+    <div class="col-sm-6 mt-3 mt-md-0"> {% include figure.liquid loading="eager" path="assets/img/cuisinemomo-saisonnier.png" title="Page des produits de saison" class="img-fluid rounded z-depth-1" %} 
+    </div>
 </div> 
 <div class="caption"> 
     Dans l'ordre du menu : <b>Recettes</b> (<code>recettes.html</code>) liste les recettes sous forme de cartes avec portions, temps et difficulté ; <b>Techniques</b> (<code>techniques.html</code>) présente les bases en 3 colonnes (Coupes, Cuissons, Mesures & conversions) ; <b>Saisonnier</b> (<code>saisonnier.html</code>) affiche un tableau des produits disponibles par mois. Chaque page a son propre fichier CSS (<code>recettes.css</code>, <code>techniques.css</code>, <code>saisonnier.css</code>). 
