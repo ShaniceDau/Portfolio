@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bibliothèque de jeux
-description: Le site de Bibliothèque de jeux a été fait avec REACT. C'est mon premier projet avec ce framework. Il y a les fonctionnalités d'ajouter une jeux, de modifier un jeux et de le supprimer, mais que lorsqu'on est connecté. Sinon, ces fonctionnalités ne sont pas accessibles.
+description: Le site de Bibliothèque de jeux a été fait avec REACT. C'est mon premier projet avec ce framework. Il y a les fonctionnalités d'ajouter un jeu, de modifier un jeu et de le supprimer, mais uniquement lorsqu'on est connecté. Sinon, ces fonctionnalités ne sont pas accessibles.
 img: assets/img/bibliothequejeux.png
 importance: 2
 category: work

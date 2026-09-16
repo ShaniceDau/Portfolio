@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Montréal Mic'd up
-description: Mon site Web illustre plusieurs artistes de Montréal. Le but de celui-ci est de pouvoir mettre de l’avant les artistes de Montréal de l’avant, car il y a beaucoup de talent dans la ville dans le domaine de la musique. Je trouve que ces ceux-ci méritent d’être connu et écouté. Je vais partager des descriptions de ces artistes et quelques morceaux de leur discographie. Dans ce projet j'ai utilisé mes compétences dans le stack MERN (MongoDB, Express, React et Node.js).
+description: Mon site Web illustre plusieurs artistes de Montréal. Le but de celui-ci est de pouvoir mettre les artistes de Montréal de l’avant, car il y a beaucoup de talent dans la ville dans le domaine de la musique. Je trouve que ceux-ci méritent d’être connus et écoutés. Je vais partager des descriptions de ces artistes et quelques morceaux de leur discographie. Dans ce projet j'ai utilisé mes compétences dans le stack MERN (MongoDB, Express, React et Node.js).
 img: assets/img/montrealmicdup.jpg
 importance: 2
 category: work

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mémoire beauté
-description: Memoire beauté est un site de jeu de mémoire. Il avait pour but de mettre de l'avant l'enregistrement de données dans le session storage et le local storage. 
+description: Mémoire beauté est un site de jeu de mémoire. Il avait pour but de mettre de l'avant l'enregistrement de données dans le session storage et le local storage. 
 img: assets/img/memoirebeaute.png
 importance: 1
 category: work

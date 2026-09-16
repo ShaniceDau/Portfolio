@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cuisine Momo
-description: Cuisne Momo est un projet de découverte de cuisine pour le cégep Montmorency. Ce projet a été fait uniquement avec du HTML et du CSS.
+description: Cuisine Momo est un projet de découverte de cuisine pour le cégep Montmorency. Ce projet a été fait uniquement avec du HTML et du CSS.
 img: assets/img/cuisinemomo.png
 importance: 1
 category: work
