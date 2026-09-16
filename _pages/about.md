@@ -6,7 +6,7 @@ subtitle: Bienvenue dans mon portfolio.
 
 profile:
   align: right
-  image: femmeinfo.png
+  image: femmeinfo.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
