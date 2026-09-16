@@ -6,6 +6,9 @@ img: assets/img/jeuboggle.jpg
 redirect: 
 importance: 3
 category: work
+images:
+    lightbox2: true
+
 ---
 <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #f5c518, #f7a600); color: #1a1a1a; font-weight: 600; padding: 0.5rem 1rem; border-radius: 999px; margin-bottom: 1rem;"> ⭐ Projet vedette du cours Environnement graphique — Collège Montmorency </div>
 
