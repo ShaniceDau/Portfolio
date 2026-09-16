@@ -10,7 +10,7 @@ images:
     lightbox2: true
 
 ---
-<div style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #f5c518, #f7a600); color: #1a1a1a; font-weight: 600; padding: 0.5rem 1rem; border-radius: 999px; margin-bottom: 1rem;"> ⭐ Projet vedette du cours Environnement graphique — Collège Montmorency </div>
+<div style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #f5c518, #f7a600); color: #1a1a1a; font-weight: 600; padding: 0.5rem 1rem; border-radius: 999px; margin-bottom: 1rem;"> ⭐ Projet vedette du cours Environnement graphique - Collège Montmorency </div>
 
 Jeu Boggle est une application graphique client/serveur en Java (JavaFX), construite étape par étape à partir d'un projet vide. Le but est de former des mots en cliquant sur des lettres adjacentes sur la grille avant la fin du temps imparti ; les meilleurs joueurs et leurs scores s'affichent en temps réel dans le panneau de droite. 
 
