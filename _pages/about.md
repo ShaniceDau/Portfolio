@@ -12,6 +12,21 @@ profile:
 
 ---
 
+<style> 
+  .profile { 
+    max-width: 200px; 
+  } 
+  .profile img { 
+    border: 5px solid transparent; 
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg, #ec4899, #a855f7, #6366f1) border-box; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.35s ease, box-shadow 0.35s ease; 
+  } 
+    .profile img:hover { 
+      transform: scale(1.04) rotate(1deg); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3); 
+    } 
+</style>
+
 Mon nom est Shanice Daudier une passionnée du developpement' d'application. Ce site web contient un amas de projet que j'ai réalisé durant mon parcours dans ce domaine.
 
 <div style="margin-top: 5rem; padding-top: 2.5rem; border-top: 1px solid var(--global-divider-color, #e0e0e0);">
