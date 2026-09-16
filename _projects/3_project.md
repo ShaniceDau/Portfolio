@@ -57,8 +57,7 @@ Aperçu du jeu
 Vidéo de démonstration
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
-        <video controls preload="metadata" poster="{{ 'assets/img/jeuboggle.png' | relative_url }}" class="img-fluid rounded z-depth-1" style="width: 100%;"> <source src="{{ 'assets/video/shanicejeuboggle.webm' | relative_url }}" type="video/webm"> Ton navigateur ne supporte pas la lecture de cette vidéo. 
-    </video> 
+        <video controls preload="metadata" poster="{{ 'assets/img/jeuboggle.png' | relative_url }}" class="img-fluid rounded z-depth-1" style="width: 100%;"><source src="{{ 'assets/video/shanicejeuboggle.webm' | relative_url }}" type="video/webm">Ton navigateur ne supporte pas la lecture de cette vidéo.</video>
     </div> 
 </div> 
 <div class="caption"> 
