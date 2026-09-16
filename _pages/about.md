@@ -6,7 +6,7 @@ subtitle: Bienvenue dans mon portfolio.
 
 profile:
   align: right
-  image: webdev.webp
+  image: femmeinfo.png
   image_circular: false # crops the image to make it circular
   more_info:
 
