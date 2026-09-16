@@ -30,7 +30,7 @@ profile:
 Mon nom est Shanice Daudier, une passionnée du développement d'application. Ce site web contient un amas de projet que j'ai réalisé durant mon parcours dans ce domaine.
 
 
-<a href= "../_projects/jeuboggle.md" > ⭐ Voir Projet vedette du cours Environnement graphique - Collège Montmorency </a>
+<a href= "/_projects/jeuboggle.md" style = "display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(135deg, #f5c518, #f7a600); color: #1a1a1a; font-weight: 600; padding: 0.5rem 1rem; border-radius: 999px; margin-bottom: 1rem;"> ⭐ Voir Projet vedette du cours Environnement graphique - Collège Montmorency </a>
 
 <div style="margin-top: 5rem; padding-top: 2.5rem; border-top: 1px solid var(--global-divider-color, #e0e0e0);">
 
