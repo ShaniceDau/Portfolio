@@ -47,8 +47,8 @@ Bibliothèque de jeux est mon premier projet fait avec React. L'état de connexi
 <script> window.addEventListener("load", function () { var closeBtn = document.querySelector(".al-lightbox-close"); if (closeBtn) { closeBtn.innerHTML = "&larr; Retour"; closeBtn.setAttribute("aria-label", "Retour à la page du projet"); } }); 
 </script>
 
-Liste des jeux (visiteur non connecté)
 
+Liste des jeux (visiteur non connecté)
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/bibliothequejeux.png' | relative_url }}" data-lightbox="bibliotheque-jeux" data-title="Liste des jeux"><img src="{{ 'assets/img/bibliothequejeux.png' | relative_url }}" alt="Liste des jeux" class="img-fluid rounded z-depth-1">
@@ -60,7 +60,6 @@ Liste des jeux (visiteur non connecté)
 </div>
 
 Connexion
-
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/connexion.png' | relative_url }}" data-lightbox="bibliotheque-jeux" data-title="Formulaire de connexion"><img src="{{ 'assets/img/connexion.png' | relative_url }}" alt="Formulaire de connexion" class="img-fluid rounded z-depth-1">
@@ -72,7 +71,6 @@ Connexion
 </div>
 
 Une fois connecté
-
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/connecte.png' | relative_url }}" data-lightbox="bibliotheque-jeux" data-title="Liste des jeux, utilisateur connecté"><img src="{{ 'assets/img/connecte.png' | relative_url }}" alt="Liste des jeux, utilisateur connecté" class="img-fluid rounded z-depth-1">
@@ -84,7 +82,6 @@ Une fois connecté
 </div>
 
 Ajout d'un jeu
-
 <div class="row"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/ajout.png' | relative_url }}" data-lightbox="bibliotheque-jeux" data-title="Formulaire d'ajout d'un jeu"><img src="{{ 'assets/img/ajout.png' | relative_url }}" alt="Formulaire d'ajout d'un jeu" class="img-fluid rounded z-depth-1">

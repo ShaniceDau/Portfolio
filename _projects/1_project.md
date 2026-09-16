@@ -49,7 +49,6 @@ Cuisine MOMO est un site multi-pages fait entièrement en HTML et CSS (sans fram
 </script>
 
 Page d'accueil
-
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-12 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/cuisinemomo.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page d'accueil de Cuisine MOMO"><img src="{{ 'assets/img/cuisinemomo.png' | relative_url }}" alt="Page d'accueil de Cuisine MOMO" class="img-fluid rounded z-depth-1">
@@ -69,7 +68,6 @@ Page d'accueil
 </div>
 
 Les autres pages du site
-
 <div class="row"> 
     <div class="col-sm-6 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Page des recettes"> <img src="{{ 'assets/img/cuisinemomorecettes.png' | relative_url }}" alt="Page des recettes" class="img-fluid rounded z-depth-1">
@@ -91,7 +89,6 @@ Les autres pages du site
 </div>
 
 Pied de page
-
 <div class="row justify-content-sm-center"> 
     <div class="col-sm-8 mt-3 mt-md-0"> 
         <a href="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" data-lightbox="cuisine-momo" data-title="Pied de page du site"><img src="{{ 'assets/img/cuisinemomocontacts.png' | relative_url }}" alt="Pied de page du site" class="img-fluid rounded z-depth-1">
