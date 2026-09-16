@@ -11,9 +11,9 @@ images:
 ---
 Liens: 
 
-[Voir le code sur GitHub](https://github.com/ShaniceDau/Montreal-Micdup.git) 
+<a href="https://github.com/ShaniceDau/Montreal-Micdup.git" style="text-decoration: underline;">Voir le code sur GitHub</a>
 
-[Voir le site Web](https://foura5-projet-final-h26-shanicedaudier.onrender.com/)
+<a href="https://foura5-projet-final-h26-shanicedaudier.onrender.com/" style="text-decoration: underline;">Voir le site Web</a>
 
 Montréal Mic'd up est un site fait avec le stack MERN (MongoDB, Express, React et Node.js) qui met en valeur des artistes de la scène musicale montréalaise, avec une fiche descriptive et une chanson populaire pour chacun. Le site est disponible en français et en anglais. 
 

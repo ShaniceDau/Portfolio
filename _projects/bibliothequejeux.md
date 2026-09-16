@@ -10,7 +10,7 @@ category: work
 
 Lien:
 
-[Voir le code sur GitHub](https://github.com/ShaniceDau/Bibliotheque-De-Jeux.git)
+<a href="https://github.com/ShaniceDau/Bibliotheque-De-Jeux.git" style="text-decoration: underline;">Voir le code sur GitHub</a>
 
 Bibliothèque de jeux est mon premier projet fait avec React. L'état de connexion est géré via le Context API (AuthContext.js), ce qui permet d'afficher ou de cacher les boutons "Ajouter un jeu", "Modifier" et "Supprimer" selon que l'utilisateur est connecté ou non. 
 

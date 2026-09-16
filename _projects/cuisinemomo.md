@@ -11,7 +11,7 @@ images:
 ---
 Lien: 
 
-[Voir le code sur GitHub](https://github.com/ShaniceDau/Cuisine-Momo.git)
+<a href="https://github.com/ShaniceDau/Cuisine-Momo.git" style="text-decoration: underline;">Voir le code sur GitHub</a>
 
 Cuisine MOMO est un site multi-pages fait entièrement en HTML et CSS (sans framework). Le style commun (couleurs, polices) est centralisé dans un fichier variables.css, et chaque page a ensuite son propre fichier CSS dédié (accueil, recettes, techniques, saisonnier).
 

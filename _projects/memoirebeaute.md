@@ -11,7 +11,7 @@ images:
 ---
 Lien: 
 
-[Voir le code sur GitHub](https://github.com/ShaniceDau/memoirebeaute.git)
+<a href="https://github.com/ShaniceDau/memoirebeaute.git" style="text-decoration: underline;">Voir le code sur GitHub</a>
 
 Mémoire beauté est un jeu de mémoire en JavaScript, où il fallait retrouver les paires de cartes (fruits, légumes et cosmétiques). Le nom du joueur est gardé dans le sessionStorage (le temps de la session), et les meilleurs scores sont sauvegardés dans le localStorage (persistant, même après avoir fermé le navigateur), avec un top 5 des meilleurs joueurs. 
 
